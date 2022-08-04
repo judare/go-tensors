@@ -9,6 +9,7 @@ func HadamardProduct(t1 Tensor, t2 Tensor) (Tensor, error) {
 	}
 
 	data := []float32{}
+	// Both slices are linear vectors (we can multiply each index for another)
 	for i, _ := range t1.Data {
 		data = append(data, t1.Data[i]*t2.Data[i])
 	}

@@ -1,3 +1,4 @@
+# Go Tensors
 
 ## Build project:
 ```bash
@@ -25,3 +26,6 @@ go build Tensor.go HadamardProduct.go IndexSelect.go Reshape.go Main.go
 ```bash
 ./Tensor is
 ```
+
+## Authors
+- [Juan David Restrepo](https://github.com/judare)
